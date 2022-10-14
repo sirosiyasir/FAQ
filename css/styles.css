@@ -1,0 +1,91 @@
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+html {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 700;
+  font-weight: bold;
+}
+
+span {
+  cursor: pointer;
+}
+
+span:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.all-text {
+  margin-top: 90px;
+  width: 410px;
+}
+
+.bigBang {
+  margin-top: 200px;
+  margin-right: 230px;
+}
+
+.box-img {
+  position: absolute;
+  height: 200px;
+  width: auto;
+  top: 230px;
+  right: 978px;
+  z-index: 1;
+}
+
+.firstAnswer,
+.secondAnswer,
+.thirdAnswer,
+.fourthAnswer,
+.fifthAnswer {
+  display: none;
+  margin-top: 10px;
+}
+
+.firstQuestion,
+.secondQuestion,
+.thirdQuestion,
+.fourthQuestion,
+.fifthQuestion {
+  margin-top: 25px;
+}
+
+.firstDown,
+.secondDown {
+  margin-left: 5.6rem;
+}
+
+.thirdDown,
+.fourthDown {
+  margin-left: 9.6rem;
+}
+
+.fifthDown {
+  margin-left: 7rem;
+}
+
+.pattern {
+  position: absolute;
+  bottom: -120px;
+  right: 640px;
+  z-index: 0;
+}
+
+.whiteArea {
+  width: 1100px;
+  height: 600px;
+  border-radius: 1.5rem;
+}
+
+.woman-img {
+  position: absolute;
+  margin-top: 100px;
+  z-index: 1;
+  right: 670px;
+}
